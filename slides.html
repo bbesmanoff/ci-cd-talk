@@ -78,7 +78,27 @@ will run a full build/test cycle in addition to a release cycle</p>
 </section>
 <section>
 
-<h2>Toolset</h2>
+<h2>How do I get started?</h2>
+
+</section>
+<section>
+
+<h2>Step 1: Build Process</h2>
+
+</section>
+<section>
+
+<h2>Step 1: Build Process</h2>
+
+<ul>
+<li>Decide on what is required for a build</li>
+</ul>
+<aside class="notes">Unit tests?  Integration tests?  Linting/style-checking?
+</aside>
+</section>
+<section>
+
+<h2>Step 2: Pick a tool</h2>
 
 </section>
 <section>
@@ -105,5 +125,120 @@ will run a full build/test cycle in addition to a release cycle</p>
 </ul>
 
 <p><em>mix of "true" ci and "true" cd</em></p>
+
+</section>
+<section>
+
+<h2>Step 3: Integrate it With Source Control</h2>
+<aside class="notes">live demo using example app
+</aside>
+</section>
+<section>
+
+<h2>Step 4: ???</h2>
+
+</section>
+<section>
+
+<h2>Step 5: <img class="emoji" alt=":money_with_wings:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4b8.png">
+</h2>
+
+</section>
+<section>
+
+<h2>Next Steps</h2>
+
+</section>
+<section>
+
+<h2>Start to integrate, continuously</h2>
+
+</section>
+<section>
+
+<h2>Start to integrate, continuously</h2>
+
+<p><code>git rebase origin master</code></p>
+<aside class="notes">rebase is not your enemy
+</aside>
+</section>
+<section>
+
+<h2>Rebasing</h2>
+
+<blockquote>
+<p>Forward-port local commits to the updated upstream head</p>
+
+<p><a href="https://git-scm.com/docs/git-rebase">git-rebase(1)</a></p>
+</blockquote>
+
+</section>
+<section>
+
+<h2>Rebasing</h2>
+<pre><code>          A---B---C topic
+         /
+    D---E---F---G master
+</code></pre>
+<p>... to ...</p>
+<pre><code>                  A'--B'--C' topic
+                 /
+    D---E---F---G master
+</code></pre>
+</section>
+<section>
+
+<h2>Rebasing</h2>
+
+<p><code>git push --force origin topic</code></p>
+
+</section>
+<section>
+
+<h2>Rebasing</h2>
+
+<p><code>git push --force origin topic</code></p>
+
+<p><img src="http://i3.kym-cdn.com/entries/icons/original/000/002/686/Deal_with_it_dog_gif.gif" alt="Deal with
+it"></p>
+
+</section>
+<section>
+
+<h2>CircleCI's Got Your Back</h2>
+
+</section>
+<section>
+
+<p>(demo time)</p>
+
+</section>
+<section>
+
+<h2>Why should I use it?</h2>
+
+</section>
+<section>
+
+<h2>Why should I use it?</h2>
+
+<ul>
+<li>(hopefully apparent)</li>
+</ul>
+
+</section>
+<section>
+
+<h2>Why should I use it?</h2>
+
+<ul>
+<li>(hopefully apparent)</li>
+<li>Fast feedback</li>
+</ul>
+
+</section>
+<section>
+
+<h2>Question?</h2>
 
 </section>
