@@ -57,7 +57,24 @@ YMMV
 
 ---
 
-## Toolset
+## How do I get started?
+
+---
+
+## Step 1: Build Process
+
+---
+
+## Step 1: Build Process
+* Decide on what is required for a build
+
+```note
+Unit tests?  Integration tests?  Linting/style-checking?
+```
+
+---
+
+## Step 2: Pick a tool
 
 ---
 
@@ -79,5 +96,107 @@ YMMV
 
 *mix of "true" ci and "true" cd*
 
+---
+
+## Step 3: Integrate it With Source Control
+
+```note
+live demo using example app
+```
+
+---
+
+## Step 4: ???
+
+---
+
+## Step 5: :money_with_wings:
+
+---
+
+## Next Steps
+
+---
+
+## Start to integrate, continuously
+
+---
+
+## Start to integrate, continuously
+`git rebase origin master`
+
+```note
+rebase is not your enemy
+```
+
+---
+
+## Rebasing
+> Forward-port local commits to the updated upstream head
+
+> [git-rebase(1)][rebase-man]
+
+---
+
+## Rebasing
+
+```
+          A---B---C topic
+         /
+    D---E---F---G master
+```
+
+... to ...
+
+```
+                  A'--B'--C' topic
+                 /
+    D---E---F---G master
+```
+
+---
+
+## Rebasing
+
+`git push --force origin topic`
+
+---
+
+## Rebasing
+
+`git push --force origin topic`
+
+![Deal with
+it](http://i3.kym-cdn.com/entries/icons/original/000/002/686/Deal_with_it_dog_gif.gif)
+
+
+---
+
+## CircleCI's Got Your Back
+
+---
+
+(demo time)
+
+---
+
+## Why should I use it?
+
+---
+
+## Why should I use it?
+* (hopefully apparent)
+
+---
+
+## Why should I use it?
+* (hopefully apparent)
+* Fast feedback
+
+---
+
+## Question?
+
 [ci-defn]: http://martinfowler.com/articles/continuousIntegration.html
 [cd-defn]: http://docs.aws.amazon.com/codepipeline/latest/userguide/concepts.html#concepts-continuous-delivery-integration
+[rebase-man]: https://git-scm.com/docs/git-rebase
