@@ -35,5 +35,49 @@ This talk contains my own ideas.
 
 > --[AWS CodeDeploy][cd-defn]
 
+---
+
+## Aren't those the same?
+
+---
+
+## Technically no
+*best kind of no*
+
+---
+
+## Theory
+The theory is that CI just checks your code against everyone elses and the CD
+will run a full build/test cycle in addition to a release cycle
+
+---
+
+## Practice
+YMMV
+
+---
+
+## Toolset
+
+---
+
+## There are many out there...
+
+* Jenkins
+* AWS CodePipeline
+* TravisCI
+* CircleCI
+
+---
+
+## There are many out there...
+
+* Jenkins
+* AWS CodePipeline
+* TravisCI
+* CircleCI
+
+*mix of "true" ci and "true" cd*
+
 [ci-defn]: http://martinfowler.com/articles/continuousIntegration.html
 [cd-defn]: http://docs.aws.amazon.com/codepipeline/latest/userguide/concepts.html#concepts-continuous-delivery-integration
